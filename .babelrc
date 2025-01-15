@@ -1,5 +1,5 @@
 {
-   "presets": [
+   "presets": [ // 转码规则
        "@babel/env"
    ]
 }
