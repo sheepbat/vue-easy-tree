@@ -78,8 +78,8 @@
         "file-loader": "^1.1.11",
 
         // 用于解析Sass文件，并将其转换为CSS。
-        "sass": "^1.55.0",
-        "sass-loader": "^7.1.0",
+        "sass": "1.26.2",
+        "sass-loader": "8.0.2",  // sass-loader（需要限制版本号防止默认安装的版本号过高
 
         // 用于压缩和混淆JavaScript代码，减小文件体积。(生产环境使用)
         "uglifyjs-webpack-plugin": "^2.1.1",  
@@ -87,6 +87,18 @@
 
     }
 }
+
 ```
 ![alt text](image.png)
+
+## webpack 打包项目建议
+    "sass-loader": "^7.2.0",
+    "sass": "1.26.2"
+```
+    sass-loader 用于解析Sass文件，并将其转换为CSS。
+    node-sass nodejs环境中用于解析Sass文件，并将其转换为CSS。
+ ```
+
+
+
 
